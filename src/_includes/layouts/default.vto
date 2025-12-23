@@ -15,10 +15,14 @@
         <div>
             <span>&sol;&sol;</span>
             {{ for item of nav.breadcrumb(page.data.url) }}
-                {{ if !item.data.basename }}
-                    <a href="{{ item.data.url }}">scrwnl.eu.org</a>
+                {{ if item.data.children }}
+                    {{ if !item.data.basename }}
+                        <a href="{{ item.data.url }}">scrwnl.eu.org</a>
+                    {{ else }}
+                        <a href="{{ item.data.url }}">{{ item.data.basename }}</a>
+                    {{ /if }}
                 {{ else }}
-                    <a href="{{ item.data.url }}">{{ item.data.basename }}</a>
+                    <span>{{ item.slug }}</span>
                 {{ /if }}
                 <span>&sol;</span>
             {{ /for }}
