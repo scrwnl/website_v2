@@ -1,0 +1,160 @@
+{
+    "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+	"version": "0.1.x",
+    "aboutMe": {
+        "identifier": "edbb2bb2-fa28-11ef-8cbc-6f97f0d24f36",
+        "name": "SCRWNLNET",
+        "preferredPrefix": ["0782", "782"],
+        "sipUri": [
+            "sip:SIP-TRUNK-D2C16368:anRnTGs3a1U4ZEU9@pbx.scrwnl.eu.org;transport=udp",
+            "sip:SIP-TRUNK-D2C16368:anRnTGs3a1U4ZEU9@vinca-major.myth-clownfish.ts.net;transport=udp"
+        ],
+        "geolocationCoordinates": {
+            "latitude": 34.39681642249886,
+            "longitude": 132.47514478862286,
+            "altitude": 17.5,
+            "accuracy": 50000
+        }
+    },
+    "extensions": [
+        {
+            "name": "kikyo",
+            "extension": "1001",
+            "type":"phone",
+            "model": "iPhone SE 3rd Generation; AGEPhone 2.5.11"
+        },
+        {
+            "name": "nemophila-maculata",
+            "extension": "1002",
+            "type":"phone",
+            "model": "Lenovo Ideapad Slim 5; Windows 11 Home; Linphone Desktop 5.2.6"
+        },
+        {
+            "name": "確認用 Playback(hello-world)",
+            "extension": "1234",
+            "type": "application",
+            "model": "Raspberry Pi Zero WH; Raspberry Pi OS Lite; Asterisk 20.1.0"
+        },
+        {
+            "name": "facsimile 0",
+            "extension": "2001",
+            "type": "fax",
+            "model": "Raspberry Pi Zero WH; Raspberry Pi OS Lite; IAXModem + HylaFAX"
+        },
+        {
+            "name": "データ通信実験用モデム 0",
+            "extension": "2002",
+            "type": "modem",
+            "model": "Raspberry Pi Zero WH; Raspberry Pi OS Lite; IAXModem",
+            "unavailable": true
+        }
+    ],
+    "providers": [
+        {
+            "identifier": "edbb2bb2-fa28-11ef-8cbc-6f97f0d24f36",
+            "name": "SCRWNLNET",
+            "prefix": "0",
+            "mantela": "https://www.scrwnl.eu.org/.well-known/mantela.json"
+        },
+        {
+            "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+            "name": "MIKANETEL",
+            "prefix": "510",
+            "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+            "name": "yudetel",
+            "prefix": "390",
+            "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
+        },
+        {
+            "identifier": "5752ca4c-c828-4946-a8f3-7f8272206f2d",
+            "name": "SHINANOTEL",
+            "prefix": "661",
+            "mantela": "https://da-tenshi.github.io/mantela.json"
+        },
+        {
+            "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+            "name": "jiminy Public",
+            "prefix": "108",
+            "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json",
+            "unavailable": true
+        },
+        {
+            "identifier": "153048c5-db33-4e00-ad49-694762555d5c",
+            "name": "jiminy Local",
+            "prefix": "119",
+            "mantela": "https://108jiminy.jp/phone/jiminylocalmantela.json"
+        },
+        {
+            "identifier": "81c99427-4a30-4364-8b17-fed97f347439",
+            "name": "sgch",
+            "prefix": "248",
+            "mantela": "https://sgchsgch.net/.well-known/mantela.json"
+        },
+        {
+            "identifier": "8400cd7b-9f20-4d1a-8e2e-fa278b245316",
+            "name": "scura",
+            "prefix": "862",
+            "mantela": "https://scuravr.github.io/.well-known/mantela.json"
+        },
+        {
+            "identifier": "906286ae-3639-453f-b500-44a910445968",
+            "name": "Sirin Seoul PBX",
+            "prefix": "101",
+            "mantela": "https://raw.githubusercontent.com/sirin-interact/.well-known/refs/heads/main/mantela.json"
+        },
+        {
+            "identifier": "497F92E7-6B9F-4D33-91B9-B34E94402913",
+            "name": "sasakulab",
+            "prefix": "530",
+            "mantela": "https://sasakulab.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "46fb2dc7-ee07-435d-9a27-0a7b4d43d3d7",
+            "name": "MCeTeLO",
+            "prefix": "917",
+            "mantela": "https://meishicafei.github.io/.well-known/mantela.json",
+            "unavailable": true
+        },
+        {
+            "identifier": "41aca3d1-6882-4e4d-9651-5e52464902e7",
+            "name": "Goryokaku",
+            "prefix": "767",
+            "mantela": "https://halka.jp/.well-known/mantela.json"
+        },
+        {
+            "identifier": "8b741e2b-45f9-4187-9da1-05d866b79a09",
+            "name": "kimkim0106",
+            "prefix": "106",
+            "mantela": "https://kimkim0106.net/.well-known/mantela.json"
+        },
+        {
+            "identifier": "db30e15e-b101-4069-a406-9af3fdfe5c2e",
+            "name": "yoshina",
+            "prefix": "447",
+            "mantela": "https://yosh1na-hub.github.io/Mantela/Mantela.yoshina.json",
+            "unavailable": true
+        },
+        {
+            "identifier": "bbe4aba8-3782-4bef-9539-6b96a895beb9",
+            "name": "tobi1",
+            "prefix": "425",
+            "mantela": "https://raw.githubusercontent.com/keitotobi1/.well-known/refs/heads/main/mantela.json"
+        },
+        {
+            "identifier": "8ad8afa6-11a8-4e61-b28d-343393f3d4d4",
+            "name": "NoriTEL",
+            "prefix": "989",
+            "mantela": "https://ajinori256.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "cea45d03-c9d9-4df0-89ad-6117ceed051d",
+            "name": "KinkaNeTEL",
+            "prefix": "5551",
+            "mantela": "https://unstable.kusaremkn.com/.well-known/kinkanetel-mantela.json",
+            "unavailable": true
+        }
+    ]
+}
