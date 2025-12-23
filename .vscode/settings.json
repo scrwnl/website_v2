@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.vto": "html",
+        "stdlib.h": "c"
+    }
+}

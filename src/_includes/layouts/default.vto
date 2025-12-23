@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    {{ if title }}
+        <title>{{ title }} - scrwnl.eu.org</title>
+    {{ else }}
+        <title>scrwnl.eu.org</title>
+    {{ /if }}
+</head>
+<body>
+    <header>
+        <div>
+            <span>&sol;&sol;</span>
+            {{ for item of nav.breadcrumb(page.data.url) }}
+                {{ if !item.data.basename }}
+                    <a href="{{ item.data.url }}">scrwnl.eu.org</a>
+                {{ else }}
+                    <a href="{{ item.data.url }}">{{ item.data.basename }}</a>
+                {{ /if }}
+                <span>&sol;</span>
+            {{ /for }}
+        </div>
+    </header>
+    <hr>
+    <main>
+        {{ content }}
+    </main>
+    <footer>&copy; 2025 ねじくぎ All Rights Reserved.</footer>
+</body>
+</html>
