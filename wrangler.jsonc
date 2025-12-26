@@ -1,0 +1,12 @@
+{
+    "$schema": "https://www.unpkg.com/wrangler@4.54.0/config-schema.json",
+    "name": "website-v2",
+    "compatibility_date": "2025-12-26",
+    "observability": {
+        "enabled": true
+    },
+    "assets": {
+        "directory": "./_site/",
+        "not_found_handling": "404-page"
+    }
+}
