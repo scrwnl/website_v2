@@ -44,7 +44,7 @@
     "npm:satori@0.18.3": "0.18.3",
     "npm:sharp@0.34.4": "0.34.4",
     "npm:tailwindcss@4.1.13": "4.1.13",
-    "npm:wrangler@^4.54.0": "4.54.0_unenv@2.0.0-rc.24_workerd@1.20251210.0"
+    "npm:wrangler@*": "4.54.0_unenv@2.0.0-rc.24_workerd@1.20251210.0"
   },
   "jsr": {
     "@std/cli@1.0.22": {
@@ -1619,10 +1619,5 @@
     "https://deno.land/x/xml@7.0.2/parse.ts": "8ae0d8339f589c29ab203dd7887e06325e2064efedfe9c61e2cd6d907443b664",
     "https://deno.land/x/xml@7.0.2/stringify.ts": "f604d3d88b8bdaff11dbc9d57a6e98fd9b353e3bfbafcaa3f421e6b470ea0e02",
     "https://deno.land/x/xml@7.0.2/wasm_xml_parser/wasm_xml_parser.js": "eabc84800bec1ee64f24fd22597a74d70b336e0cf172182e59d48a7ad2485b76"
-  },
-  "workspace": {
-    "dependencies": [
-      "npm:wrangler@^4.54.0"
-    ]
   }
 }

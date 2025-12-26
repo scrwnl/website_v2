@@ -1,14 +1,14 @@
 {
   "imports": {
     "lume/": "https://deno.land/x/lume@v3.0.11/",
-    "lume/jsx-runtime": "https://deno.land/x/ssx@v0.1.12/jsx-runtime.ts",
-    "wrangler": "npm:wrangler@^4.54.0"
+    "lume/jsx-runtime": "https://deno.land/x/ssx@v0.1.12/jsx-runtime.ts"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
-    "build": "deno task lume",
+    "build": "deno task lume && rm -rf ./node_modules",
     "serve": "deno task lume -s",
-    "clean": "rm -rf ./_site"
+    "clean": "rm -rf ./_site",
+    "deploy": "deno run -A npm:wrangler deploy"
   },
   "compilerOptions": {
     "types": [
