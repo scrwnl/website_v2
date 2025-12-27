@@ -10,10 +10,10 @@ SCRWNLNET 電話サービスはねじくぎが管理する実験用 IP
 
 ## 稼働環境
 
-| 機能   | 環境                 |
-| ------ | -------------------- |
-| 計算機 | Raspberry Pi Zero WH |
-| PBX    | Asterisk             |
+| 機能   | 環境                               |
+| ------ | ---------------------------------- |
+| 計算機 | Raspberry Pi Zero WH (vinca-major) |
+| PBX    | Asterisk                           |
 
 ## 端末
 
